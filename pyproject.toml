@@ -1,0 +1,23 @@
+[project]
+name = "pywce_ai"
+version = "0.1.0"
+description = "pywce-ai using crewAI"
+authors = [{ name = "DonnC", email = "donnclab@gmail.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.98.0,<1.0.0"
+]
+
+[project.scripts]
+pywce_ai = "pywce_ai.main:run"
+run_crew = "pywce_ai.main:run"
+train = "pywce_ai.main:train"
+replay = "pywce_ai.main:replay"
+test = "pywce_ai.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

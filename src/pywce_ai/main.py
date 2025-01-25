@@ -18,8 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs',
-        'current_year': str(datetime.now().year)
+        'chatbot': 'Online Food Ordering',
     }
 
     try:
@@ -33,8 +32,9 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        "topic": "AI LLMs"
+        'chatbot': 'Online Food Ordering',
     }
+
     try:
         PywceAi().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
 
@@ -58,7 +58,7 @@ def test():
     Test the crew execution and returns the results.
     """
     inputs = {
-        "topic": "AI LLMs"
+        'chatbot': 'Online Food Ordering',
     }
     try:
         PywceAi().crew().test(n_iterations=int(sys.argv[1]), openai_model_name=sys.argv[2], inputs=inputs)

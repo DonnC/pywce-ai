@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a965ec-ab62-4534-bc72-95084c472fa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pywce-ai.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledge/architecture/overview.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledge/examples/chatbot_examples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledge/hooks/on_receive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledge/templates/button.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knowledge/templates/text.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/gpt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pywce_ai/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pywce_ai/config/agents.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/config/agents.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pywce_ai/config/tasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/config/tasks.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pywce_ai/crew.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/crew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pywce_ai/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;yaml&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DEVELOPER\Documents\Personal\Personal\Projects\python\pywce-ai" />
@@ -84,6 +82,10 @@
       <updated>1737528957710</updated>
       <workItem from="1737528958629" duration="5807000" />
       <workItem from="1737538580115" duration="1809000" />
+      <workItem from="1737543019157" duration="83000" />
+      <workItem from="1737714741981" duration="1296000" />
+      <workItem from="1737721932781" duration="4050000" />
+      <workItem from="1737833858510" duration="2981000" />
     </task>
     <servers />
   </component>

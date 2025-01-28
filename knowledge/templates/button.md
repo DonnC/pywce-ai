@@ -1,25 +1,25 @@
 # Template: Button
 
 ## Description
-The button template is used to present users with a set of options that they can select by clicking a button.
+The button template is used to present users with a limited set of options that they can select by clicking a button.
+
 
 ## Fields
 - **type**: Always `button` for this template.
 - **message**:
-  - **title**: The title of the message displayed at the top.
+  - **title**: *(Optional)* The title of the message displayed at the top.
   - **body**: The body of the message providing additional information or context.
-  - **footer**: Optional. Footer text displayed at the bottom of the message.
-  - **buttons**: A list of button labels.
+  - **footer**: *(Optional)* Footer text displayed at the bottom of the message.
+  - **buttons**: A list of button labels. A max of 3 only
 - **routes**: Maps button labels to their corresponding next template or action.
 
-## Example
+## Example 1
 ```yaml
 "START":
   type: button
   message:
     title: Welcome to Our Service
     body: "Choose an option to get started:"
-    footer: Thank you for visiting
     buttons:
       - Option 1
       - Option 2

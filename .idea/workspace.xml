@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4a965ec-ab62-4534-bc72-95084c472fa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/gpt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pywce_ai/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pywce_ai/config/agents.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/config/agents.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledge/architecture/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/knowledge/architecture/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledge/hooks/on_receive.md" beforeDir="false" afterPath="$PROJECT_DIR$/knowledge/hooks/on_receive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledge/templates/button.md" beforeDir="false" afterPath="$PROJECT_DIR$/knowledge/templates/button.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knowledge/templates/text.md" beforeDir="false" afterPath="$PROJECT_DIR$/knowledge/templates/text.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pywce_ai/config/tasks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/config/tasks.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pywce_ai/crew.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/crew.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pywce_ai/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pywce_ai/main.py" afterDir="false" />
@@ -86,6 +87,8 @@
       <workItem from="1737714741981" duration="1296000" />
       <workItem from="1737721932781" duration="4050000" />
       <workItem from="1737833858510" duration="2981000" />
+      <workItem from="1737960587388" duration="1425000" />
+      <workItem from="1738045206765" duration="1248000" />
     </task>
     <servers />
   </component>

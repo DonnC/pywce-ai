@@ -18,21 +18,21 @@ developer_task:
     Write python hooks code to handle custom logic for the chatbot
     Such as processing user input, saving session data and integrating with other services or with external APIs
     Make sure the code uses best python practises with appropriate code documentation
+    The chatbot YAML template is found in the chatbot.yaml file
   expected_output: >
     Python functions for hooks 
-    Example hooks which are (`on-receive`, `validator`, `on-generate`, e.t.c) that integrate seamlessly with
-    the YAML templates.
-    Working, clean and testable python functions
+    Define required engine hooks where necessary that integrate seamlessly with the defined YAML templates.
+    Product working, clean and testable python functions
   agent: hook_developer
   output_file: hooks.py
 
 reviewer_task:
   description: >
-    Ensure to validate the pywce engine YAML templates
-    Validate template python hooks to ensure they are syntactically correct
+    Ensure to validate the pywce engine YAML templates saved in chatbot.yaml
+    Validate template python hooks saved in hooks.py file to ensure they are syntactically correct
     Ensure generated python code adhere to best practises
   expected_output: >
-    A report detailing an issues found.
+    A report detailing all issues found.
     Provide suggestions for improvement
     The reviewed python function hooks should be error-free and optimized
   agent: code_reviewer
@@ -40,9 +40,9 @@ reviewer_task:
 
 reporter_task:
   description: >
-    Create documentation that explains the chatbot's conversation flow,
-    hooks and usage instructions
+    Create documentation that explains the chatbot's conversation flow, hooks and usage instructions
     Ensure the documentation is clear and output in markdown format
+    Review the generated engine YAML template, chatbot.yaml and generated engine defined python template hooks in hooks.py
   expected_output: >
     A markdown file that includes
     - overview of the chatbot's functionality

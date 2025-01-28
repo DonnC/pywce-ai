@@ -15,10 +15,11 @@ class PywceAi:
 
     @agent
     def conversation_flow_designer(self) -> Agent:
+        engine_overview_tool = FileReadTool(file_path="./knowledge/architecture/overview.md")
         return Agent(
             config=self.agents_config['conversation_flow_designer'],
             verbose=True,
-            tools=[directory_read_tool, file_read_tool]
+            tools=[directory_read_tool, engine_overview_tool]
         )
 
     @agent

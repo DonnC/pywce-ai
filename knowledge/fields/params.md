@@ -1,13 +1,10 @@
-# Hook: On-Receive
+# Field: params
 
 ## Description
-This hook is triggered when the system receives a specific event or input. 
-It is used for processing any business logic soon after user response to message before continuing the conversation flow.
+This YAML template attribute makes it possible to pass static variables to business logic defined in the hook
 
 ## Use Cases
-- Storing user input in a database.
-- Validating input (e.g., phone number, email).
-- Triggering external APIs.
+- Pass any static variables or arguments from templates to python hooks
 
 ## Example 1: Template
 ```yaml
@@ -15,6 +12,9 @@ It is used for processing any business logic soon after user response to message
   type: text
   on-receive: "example.engine_chatbot.hooks.slack_service.notify_queue"
   message: "Type *yes* if you want to get notified on Slack, else type anything else to continue"
+  params:
+    type: NOTIFICATION_TYPE
+    channel: SLACK
   routes:
     "re:.*": "NEXT-STEP"
 ```
@@ -29,11 +29,14 @@ def notify_queue(arg: HookArg) -> HookArg:
   if user answers yes, add user to slack notification queue
   """
   print(f"Received hook arg: {arg}")
+  
+  params = arg.params
 
   if arg.user_input.lower() == "yes":
-    # TODO: implement business logic
-    slack_service = SlackService()
-    slack_service.add_to_notify(arg.user.wa_id)
+    if params.get('channel') == 'SLACK':
+        if params.get('type') == 'NOTIFICATION_TYPE':
+            slack_service = SlackService()
+            slack_service.add_to_notify(arg.user.wa_id)
   
   return arg
 ```
